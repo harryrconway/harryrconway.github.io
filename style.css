@@ -141,15 +141,15 @@ body {
   --red: #ff5555;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     width: 300px;
     font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .title {
-    font-size: 12px;
+     font-size: 12px;
   }
 }
