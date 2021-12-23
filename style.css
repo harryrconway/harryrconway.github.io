@@ -140,4 +140,10 @@ body {
   --orange: #ff9c55;
   --red: #ff5555;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 300px;
+    font-size: 1em;
+  }
+}
