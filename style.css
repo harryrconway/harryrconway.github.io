@@ -1,6 +1,6 @@
 body {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,11 +10,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 25px 0 50px 0;
 }
 
@@ -22,7 +22,7 @@ body {
 .nav .github:hover,
 .nav .linkedin:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: -webkit-transform 330ms ease-in-out;
   transition: -webkit-transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out;
@@ -35,11 +35,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -58,76 +58,167 @@ body {
 
 .border {
   -webkit-animation: shadow-wave 1s ease infinite;
-          animation: shadow-wave 1s ease infinite;
+  animation: shadow-wave 1s ease infinite;
   width: 500px;
   border: 3px solid var(--primary);
-  -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
-          box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+  -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+    10px -10px var(--green), 20px -20px 0 -3px var(--background),
+    20px -20px var(--yellow), 30px -30px 0 -3px var(--background),
+    30px -30px var(--orange), 40px -40px 0 -3px var(--background),
+    40px -40px var(--red);
+  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+    40px -40px 0 -3px var(--background), 40px -40px var(--red);
 }
 
 @-webkit-keyframes shadow-wave {
   0% {
     border: 3px solid var(--primary);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--green), 20px -20px 0 -3px var(--background),
+      20px -20px var(--yellow), 30px -30px 0 -3px var(--background),
+      30px -30px var(--orange), 40px -40px 0 -3px var(--background),
+      40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+      30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+      40px -40px 0 -3px var(--background), 40px -40px var(--red);
   }
   20% {
     border: 3px solid var(--red);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary), 20px -20px 0 -3px var(--background), 20px -20px var(--green), 30px -30px 0 -3px var(--background), 30px -30px var(--yellow), 40px -40px 0 -3px var(--background), 40px -40px var(--orange);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary), 20px -20px 0 -3px var(--background), 20px -20px var(--green), 30px -30px 0 -3px var(--background), 30px -30px var(--yellow), 40px -40px 0 -3px var(--background), 40px -40px var(--orange);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--primary), 20px -20px 0 -3px var(--background),
+      20px -20px var(--green), 30px -30px 0 -3px var(--background),
+      30px -30px var(--yellow), 40px -40px 0 -3px var(--background),
+      40px -40px var(--orange);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary),
+      20px -20px 0 -3px var(--background), 20px -20px var(--green),
+      30px -30px 0 -3px var(--background), 30px -30px var(--yellow),
+      40px -40px 0 -3px var(--background), 40px -40px var(--orange);
   }
   40% {
     border: 3px solid var(--orange);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red), 20px -20px 0 -3px var(--background), 20px -20px var(--primary), 30px -30px 0 -3px var(--background), 30px -30px var(--green), 40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red), 20px -20px 0 -3px var(--background), 20px -20px var(--primary), 30px -30px 0 -3px var(--background), 30px -30px var(--green), 40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--red), 20px -20px 0 -3px var(--background),
+      20px -20px var(--primary), 30px -30px 0 -3px var(--background),
+      30px -30px var(--green), 40px -40px 0 -3px var(--background),
+      40px -40px var(--yellow);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red),
+      20px -20px 0 -3px var(--background), 20px -20px var(--primary),
+      30px -30px 0 -3px var(--background), 30px -30px var(--green),
+      40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
   }
   60% {
     border: 3px solid var(--yellow);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange), 20px -20px 0 -3px var(--background), 20px -20px var(--red), 30px -30px 0 -3px var(--background), 30px -30px var(--primary), 40px -40px 0 -3px var(--background), 40px -40px var(--green);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange), 20px -20px 0 -3px var(--background), 20px -20px var(--red), 30px -30px 0 -3px var(--background), 30px -30px var(--primary), 40px -40px 0 -3px var(--background), 40px -40px var(--green);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--orange), 20px -20px 0 -3px var(--background),
+      20px -20px var(--red), 30px -30px 0 -3px var(--background),
+      30px -30px var(--primary), 40px -40px 0 -3px var(--background),
+      40px -40px var(--green);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange),
+      20px -20px 0 -3px var(--background), 20px -20px var(--red),
+      30px -30px 0 -3px var(--background), 30px -30px var(--primary),
+      40px -40px 0 -3px var(--background), 40px -40px var(--green);
   }
   80% {
     border: 3px solid var(--green);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow), 20px -20px 0 -3px var(--background), 20px -20px var(--orange), 30px -30px 0 -3px var(--background), 30px -30px var(--red), 40px -40px 0 -3px var(--background), 40px -40px var(--primary);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow), 20px -20px 0 -3px var(--background), 20px -20px var(--orange), 30px -30px 0 -3px var(--background), 30px -30px var(--red), 40px -40px 0 -3px var(--background), 40px -40px var(--primary);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--yellow), 20px -20px 0 -3px var(--background),
+      20px -20px var(--orange), 30px -30px 0 -3px var(--background),
+      30px -30px var(--red), 40px -40px 0 -3px var(--background),
+      40px -40px var(--primary);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow),
+      20px -20px 0 -3px var(--background), 20px -20px var(--orange),
+      30px -30px 0 -3px var(--background), 30px -30px var(--red),
+      40px -40px 0 -3px var(--background), 40px -40px var(--primary);
   }
   100% {
     border: 3px solid var(--primary);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--green), 20px -20px 0 -3px var(--background),
+      20px -20px var(--yellow), 30px -30px 0 -3px var(--background),
+      30px -30px var(--orange), 40px -40px 0 -3px var(--background),
+      40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+      30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+      40px -40px 0 -3px var(--background), 40px -40px var(--red);
   }
 }
 
 @keyframes shadow-wave {
   0% {
     border: 3px solid var(--primary);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--green), 20px -20px 0 -3px var(--background),
+      20px -20px var(--yellow), 30px -30px 0 -3px var(--background),
+      30px -30px var(--orange), 40px -40px 0 -3px var(--background),
+      40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+      30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+      40px -40px 0 -3px var(--background), 40px -40px var(--red);
   }
   20% {
     border: 3px solid var(--red);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary), 20px -20px 0 -3px var(--background), 20px -20px var(--green), 30px -30px 0 -3px var(--background), 30px -30px var(--yellow), 40px -40px 0 -3px var(--background), 40px -40px var(--orange);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary), 20px -20px 0 -3px var(--background), 20px -20px var(--green), 30px -30px 0 -3px var(--background), 30px -30px var(--yellow), 40px -40px 0 -3px var(--background), 40px -40px var(--orange);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--primary), 20px -20px 0 -3px var(--background),
+      20px -20px var(--green), 30px -30px 0 -3px var(--background),
+      30px -30px var(--yellow), 40px -40px 0 -3px var(--background),
+      40px -40px var(--orange);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary),
+      20px -20px 0 -3px var(--background), 20px -20px var(--green),
+      30px -30px 0 -3px var(--background), 30px -30px var(--yellow),
+      40px -40px 0 -3px var(--background), 40px -40px var(--orange);
   }
   40% {
     border: 3px solid var(--orange);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red), 20px -20px 0 -3px var(--background), 20px -20px var(--primary), 30px -30px 0 -3px var(--background), 30px -30px var(--green), 40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red), 20px -20px 0 -3px var(--background), 20px -20px var(--primary), 30px -30px 0 -3px var(--background), 30px -30px var(--green), 40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--red), 20px -20px 0 -3px var(--background),
+      20px -20px var(--primary), 30px -30px 0 -3px var(--background),
+      30px -30px var(--green), 40px -40px 0 -3px var(--background),
+      40px -40px var(--yellow);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red),
+      20px -20px 0 -3px var(--background), 20px -20px var(--primary),
+      30px -30px 0 -3px var(--background), 30px -30px var(--green),
+      40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
   }
   60% {
     border: 3px solid var(--yellow);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange), 20px -20px 0 -3px var(--background), 20px -20px var(--red), 30px -30px 0 -3px var(--background), 30px -30px var(--primary), 40px -40px 0 -3px var(--background), 40px -40px var(--green);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange), 20px -20px 0 -3px var(--background), 20px -20px var(--red), 30px -30px 0 -3px var(--background), 30px -30px var(--primary), 40px -40px 0 -3px var(--background), 40px -40px var(--green);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--orange), 20px -20px 0 -3px var(--background),
+      20px -20px var(--red), 30px -30px 0 -3px var(--background),
+      30px -30px var(--primary), 40px -40px 0 -3px var(--background),
+      40px -40px var(--green);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange),
+      20px -20px 0 -3px var(--background), 20px -20px var(--red),
+      30px -30px 0 -3px var(--background), 30px -30px var(--primary),
+      40px -40px 0 -3px var(--background), 40px -40px var(--green);
   }
   80% {
     border: 3px solid var(--green);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow), 20px -20px 0 -3px var(--background), 20px -20px var(--orange), 30px -30px 0 -3px var(--background), 30px -30px var(--red), 40px -40px 0 -3px var(--background), 40px -40px var(--primary);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow), 20px -20px 0 -3px var(--background), 20px -20px var(--orange), 30px -30px 0 -3px var(--background), 30px -30px var(--red), 40px -40px 0 -3px var(--background), 40px -40px var(--primary);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--yellow), 20px -20px 0 -3px var(--background),
+      20px -20px var(--orange), 30px -30px 0 -3px var(--background),
+      30px -30px var(--red), 40px -40px 0 -3px var(--background),
+      40px -40px var(--primary);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow),
+      20px -20px 0 -3px var(--background), 20px -20px var(--orange),
+      30px -30px 0 -3px var(--background), 30px -30px var(--red),
+      40px -40px 0 -3px var(--background), 40px -40px var(--primary);
   }
   100% {
     border: 3px solid var(--primary);
-    -webkit-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
-            box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    -webkit-box-shadow: 10px -10px 0 -3px var(--background),
+      10px -10px var(--green), 20px -20px 0 -3px var(--background),
+      20px -20px var(--yellow), 30px -30px 0 -3px var(--background),
+      30px -30px var(--orange), 40px -40px 0 -3px var(--background),
+      40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+      30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+      40px -40px 0 -3px var(--background), 40px -40px var(--red);
   }
 }
 
@@ -143,13 +234,13 @@ body {
 
 @media (max-width: 600px) {
   body {
-    width: 300px;
+    width: 400px;
     font-size: 12px;
   }
 }
 
 @media (max-width: 600px) {
   .title {
-     font-size: 12px;
+    font-size: 34px;
   }
 }
