@@ -234,12 +234,12 @@ body {
 
 @media (max-width: 600px) {
   body {
-    width: 300px;
+    width: 250px;
   }
 }
 
 @media (max-width: 600px) {
   .title {
-    font-size: 34px;
+    font-size: 24px;
   }
 }
