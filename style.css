@@ -5,8 +5,16 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.header, nav, ul, li, a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 5px;
+}
+
 body {
-  padding: 0px 100px;
+  padding: 0px 200px;
 }
 
 b {
@@ -16,11 +24,28 @@ b {
 .border {
   display: flex;
   justify-content: flex-end;
-white-space: nowrap;
+  white-space: nowrap;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: flex-end;
-  padding: 0px 100px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  /* * {
+    padding: 0;
+  } */
+
+  .section {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
