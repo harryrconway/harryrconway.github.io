@@ -17,6 +17,10 @@ body {
   padding: 70px 300px;
 }
 
+.section {
+  padding: 0px 50px;
+}
+
 b {
   font-style: italic;
 }
