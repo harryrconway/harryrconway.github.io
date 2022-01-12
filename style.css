@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 nav {
@@ -22,7 +24,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .nav-links a {
