@@ -135,9 +135,9 @@ section {
 }
 
 @media only screen and (max-width: 1124px) {
-    body {
+    * {
         overflow-x: hidden;
-        /* overflow-y: hidden; */
+        overflow-y: hidden;
     }
     .nav-links {
         position: absolute;
