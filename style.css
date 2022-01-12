@@ -157,8 +157,15 @@ section {
         transition: transform 0.5s ease-in;
   }
 
+    .logo {
+        position: absolute;
+        left: 50px;
+    }
+
     .burger {
         display: block;
+        position: absolute;
+        right: 50px;
     }
 }
 
