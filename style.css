@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    font-size: 120px;
+    line-height: .9166666667;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+}
+span {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    font-size: 50px;
+    line-height: .9166666667;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+}
