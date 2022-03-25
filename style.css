@@ -1,25 +1,21 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+body {
+    background-color: #000;
 }
 h1 {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #1d1d1f;
-    font-size: 120px;
-    line-height: .9166666667;
-    font-weight: 600;
-    letter-spacing: -0.002em;
+    font-family: open sans;
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+    animation: 2s linear infinite condemned_blink_effect;
+
 }
-span {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #1d1d1f;
-    font-size: 50px;
-    line-height: .9166666667;
-    font-weight: 600;
-    letter-spacing: -0.002em;
-    position: absolute;
-    top: 80%;
-    right: 20%;
-}
+@keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
